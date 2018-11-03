@@ -13,10 +13,12 @@ body {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
-    color: #908685;
   }
 
+.p {
+    color: #908685;
 
+}
   #footer {
     bottom: 0;
     width: 100%;
@@ -25,7 +27,4 @@ body {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
     weight: bold;
     color: #ffffff;
-
   }
-
-
