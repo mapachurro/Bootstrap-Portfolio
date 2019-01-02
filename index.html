@@ -1,98 +1,92 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style_index.css">
+    <meta charset="UTF-8">
+    <title>oliver jl renwick </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
 
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="row offset-sm-2" >
-                <a class="navbar-brand" href="#" style="font-family: 'Georgia', Times, Times New Roman, serif; background-color: #908685; color: #ffffff; padding: 15px; font-size: 25px; font-weight: bold; ">Oliver
-                    JL
-                    Renwick</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav" style="font-family: 'Georgia', Times, Times New Roman, serif; color: #908685;">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
+           <!-- Navbar -->
+           <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">
+                            <img src="assets/images/square 42.jpg" width="30" height="30"></a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html" style="color: #7C98E2;">oliver jl renwick <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html" style="color: #7C98E2;">my work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="./contact.html" style="color: #7C98E2;">my channels</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-        </div>
-    </nav>
+        </nav>  
+    
+    <!-- Overall Bootstrap Grid -->
 
-<div class="">
-    <div class="row">
-        <div class="col-sm-7 offset-sm-2">
+    <div class="container">
+        <!-- Bio card -->
+    <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card" id="biocard">
+                        <div class="card-header bg-dark">
+                            <h3 id='name'>oliver j.l. renwick</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="blurb">
+                                <img id="headshot" src="./assets/images/small_headshot.jpg">
+                                <div id="elevatorbio">
+                                <p>I'm a tinkerer, linguist, writer.</p>
+                                <p>Not necessarily in that order. </p>
 
+                                    As a tinkerer, I code; I'm interested in networks in general, and in particular, 
+                                    the Ethereum blockchain and mesh networking. I want technology to be adapted to
+                                    a more resilient, less destructive world economy, both socially and ecologically.
+                                    You can see some of the stuff I've built along these lines over on my 
+                                    <a href="./portfolio.html">portfolio</a> page. </p>
 
-            <div class="card">
-                <div class="card-body">
-                    <div class="media" style:>
-                        <img class="mr-3" src="assets/images/small_headshot.jpg" alt="How am I not a generic placeholder image?"
-                            style="width: 30%; height: auto;">
-                        <div class="media-body">
-                            <h5 class="mt-0">About Me</h5>
-                            <p > "Un Dia Perfecto," for me:<br>
-                                -Write a paper, with references, regarding the application of a model of oral poetic
-                                tradition
-                                from pre-biblical Hebraic sources to the reggaeton of today<br>
-                                -Work on installing a Volkswagen ALH TDI engine, preferably with a VNT-17 or hybrid
-                                17/22
-                                turbocharger, maybe .216 nozzles, a PD fuel pump, and the appropriate adapter plate,
-                                onto
-                                a mid-1970s convertible Superbug<br>
-                                -Go to Arabic class<br>
-                                -Go to Indonesian class<br>
-                                -Eat a grapefruit with honey and black coffee<br>
-                                -Darle un paseo por una feria que hasta aquel momento desconocía, en un barrio al que
-                                jamás he
-                                visitado
-                                <br>And finish it off with a toast to Juanes and Lou Reed<br>
-                                <p class="mb-0">And sometimes, if you go up on a steep hill in Las Vegas and look West,
-                                    you can
-                                    still
-                                    see it:
-                                    That high water mark where the wave finally broke, and rolled back.
-                                </p>
-                            </p>
+                                    <p>
+                                    As a linguist, I have worked for the last decade in professional interpretation and 
+                                    translation. The bulk of it has been in legal, medical, and financial/business contexts. 
+                                    My particular area of interest within linguistics is the deployment of metaphor and the 
+                                    existence/non-existence of human language as we know it without metaphor. I wrote a book
+                                    examining one tiny little corner of this issue, in the context of addiction recovery narratives,
+                                    hopefully for the benefit of my colleagues: <a href="https://www.amazon.com/God-Any-Other-Name-Interpreting/dp/154254260X">God by Any Other Name</a>. </p>
+                                
+                                    <p>
+                                    That's some of my writing, and other projects are mostly forthcoming (having kids and Doing Life
+                                    sucks up a lot of time otherwise Spent Writing), but I'm also working on amassing a collection of 
+                                    translated songs--check that out over on the <a href="./portfolio.html">portfolio</a> as well.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-
-
                 </div>
+    
             </div>
         </div>
     </div>
-</div>
-
-
-
-    <div id="footer">
-            <div class="container">
-              <p class="footer-block">Copyright © Oliver JL Renwick, 2018</p>
-            </div>
-          </div>
-
-
+    
 </body>
-
-
+<footer id="footer">Copyright Oliver Renwick, 2018</div>
 </html>
